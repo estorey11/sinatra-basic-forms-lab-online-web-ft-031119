@@ -12,7 +12,6 @@ class App < Sinatra::Base
   post 'display' do
     @name=params[:name]
     @breed=params[:breed]
-    @mon
     erb :display_puppy
   end
 end
